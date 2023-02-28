@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejercicionumero2_lab_rad.Views.PageAlum">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="txtNumerodos" 
+                   Placeholder="numero1" 
+                   Keyboard="Text"
+                   Margin="10,10,10,0"/>
+
+            <Entry x:Name="txtNumerouno" 
+                   Placeholder="numero2" 
+                   Keyboard="Text" 
+                    Margin="10,10,10,0"/>
+
+            <Button x:Name="btnsuma"
+                    Text="Suma" 
+                    Clicked="btnsuma_Clicked" 
+                     Margin="10,10,10,0"
+                    BackgroundColor="Yellow"/>
+
+            <Button x:Name="btnresta"
+                    Text="Suma" 
+                    Clicked="btnresta_Clicked" 
+                     Margin="10,10,10,0"
+                    BackgroundColor="Yellow"/>
+
+            <Button x:Name="btndivision"
+                    Text="Division" 
+                    Clicked="btndivision_Clicked" 
+                     Margin="10,10,10,0"
+                    BackgroundColor="Yellow"/>
+
+            <Button x:Name="btnmultiplicacion"
+                    Text="Multiplicacion" 
+                    Clicked="btmmultiplicavion_Clicked" 
+                     Margin="10,10,10,0"
+                    BackgroundColor="Yellow"/>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
